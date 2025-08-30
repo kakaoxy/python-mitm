@@ -27,7 +27,7 @@
 3.  **运行脚本**：
     * 根据你的网络环境，在终端中运行以下命令（如果不需要经过 VPN 代理，可以去掉 `--mode upstream` 部分）：
     ```bash
-    mitmweb --mode upstream:[http://127.0.0.1:7897](http://127.0.0.1:7897) -s main.py
+    mitmweb --mode upstream:http://127.0.0.1:7897 -s main.py
     ```
 
 4.  **开始抓取**：
